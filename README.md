@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# Pickering Reading Circle Website
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/862d7e4e-50f2-4ca7-a6e2-68cce4b640ee
+**Repository**: https://github.com/kimchiburgerss/Reading-Circle-Website
 
-## How can I edit this code?
+## About
 
-There are several ways of editing your application.
+A modern, responsive website for the Pickering Reading Circle - a community organization dedicated to empowering children through literacy for over 30 years.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/862d7e4e-50f2-4ca7-a6e2-68cce4b640ee) and start prompting.
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI**: Built with React, TypeScript, and Tailwind CSS
+- **Interactive Components**: Blog with modal views, photo gallery with filtering
+- **Accessibility**: Semantic HTML5 and ARIA-compliant components
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technologies Used
 
-**Use your preferred IDE**
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **Build Tool**: Vite
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **Forms**: React Hook Form + Zod validation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (v18 or higher)
+- npm or yarn
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone the repository
+git clone https://github.com/kimchiburgerss/Reading-Circle-Website.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Navigate to project directory
+cd Reading-Circle-Website
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/          # Reusable UI components
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── data/               # Static data (blog posts)
+├── assets/             # Images and static assets
+└── lib/                # Utility functions
+```
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+This website can be deployed to any static hosting service:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vercel**: Connect your GitHub repository
+- **Netlify**: Drag and drop the dist folder
+- **GitHub Pages**: Use the gh-pages workflow
+- **Firebase Hosting**: Deploy the build folder
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/862d7e4e-50f2-4ca7-a6e2-68cce4b640ee) and click on Share -> Publish.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
+This project is open source and available under the [MIT License](LICENSE).
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **Email**: pickeringreads@hotmail.com
+- **Phone**: (905) 831-6354
+- **Location**: 1 The Esplanade, Pickering Ontario L1V 6K7
