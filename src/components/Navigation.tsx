@@ -139,7 +139,7 @@ const Navigation = () => {
             <CartButton />
             
             {/* Donate Button */}
-            <a href="https://www.paypal.com/donate" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.paypal.com/donate?token=AUJ9CUrtWhpwmQQRta7Hc3zh91kMChLmiyV49ltB1QQAYPpyyVJPTv5pk3eqEDi8-vLgxKj_wz328C-2" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="neu-glow"
                 className="font-semibold"
@@ -195,7 +195,7 @@ const Navigation = () => {
               ))}
               
               <div className="px-4 py-2">
-                <a href="https://www.paypal.com/donate" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
+                <a href="https://www.paypal.com/donate?token=AUJ9CUrtWhpwmQQRta7Hc3zh91kMChLmiyV49ltB1QQAYPpyyVJPTv5pk3eqEDi8-vLgxKj_wz328C-2" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
                   <Button 
                     variant="neu-glow"
                     className="w-full font-semibold"

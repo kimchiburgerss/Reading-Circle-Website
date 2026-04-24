@@ -80,7 +80,7 @@ const Checkout = () => {
     setTimeout(() => {
       setIsProcessing(false);
       // Redirect to PayPal with order details
-      const paypalUrl = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=your-email@example.com&amount=${total.toFixed(2)}&currency_code=CAD&item_name=Pickering Reading Circle Order&return=${window.location.origin}/order-confirmation`;
+      const paypalUrl = `https://www.paypal.com/donate?token=AUJ9CUrtWhpwmQQRta7Hc3zh91kMChLmiyV49ltB1QQAYPpyyVJPTv5pk3eqEDi8-vLgxKj_wz328C-2&amount=${total.toFixed(2)}&currency_code=CAD&item_name=Pickering Reading Circle Order&return=${window.location.origin}/order-confirmation`;
       window.location.href = paypalUrl;
     }, 1000);
   };
